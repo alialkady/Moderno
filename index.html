@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <title>Responsive Website</title>
+</head>
+<body>
+    <div class="first_layer">
+    <header class="header">
+        <div class="logo">
+            <img src="imgs/logo.png" alt="Logo">
+        </div>
+        <button class="menu-button"><svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg></button>
+    </header>
+        <div class="title">
+            <h1 style="font-size:80px;">Moderno</h1>
+            <p style="font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               <button type="button" class="btn btn-primary button_title" style ="width: 170px; height: 40px;">Primary</button>
+        </div>
+        <div class="service">
+
+    <div class="card-container">
+        <div class="card">
+            <div class="circular-img">
+                <svg class="img_service" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+  <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+</svg>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">we are creative</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore soluta repellendus dolore odit similique. Dolores rem velit numquam saepe nam, consequuntur architecto laborum eius? Repudiandae veniam quaerat dolore tenetur?</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="circular-img">
+                <svg class="img_service" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                    <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                    <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                  </svg>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">we have skills</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem molestias ex qui voluptatem, beatae quas deserunt eum perspiciatis officia dolorum. Voluptate impedit, sed esse doloribus quaerat consequuntur non ut nemo!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="circular-img">
+                <svg class="img_service" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+                    <path d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434l.071-.286zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5zm0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78h4.723zM5.048 3.967c-.03.021-.058.043-.087.065l.087-.065zm-.431.355A4.984 4.984 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8 4.617 4.322zm.344 7.646.087.065-.087-.065z"/>
+                  </svg>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">we love to help</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vitae molestias magni. Nisi magni, vero facilis commodi beatae perferendis odit sunt praesentium, tempora hic fugit labore a dolores corrupti eius.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="image-grid">
+        
+        <div class="image">
+            <img src="imgs/img1.jpg" >
+            <div class="image-overlay">
+                <p>The successs story</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="imgs/img2.jpg">
+            <div class="image-overlay">
+                <p>the success story</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="imgs/img3.png" >
+            <div class="image-overlay">
+                <p>the success story</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="imgs/img1.jpg" >
+            <div class="image-overlay">
+                <p>the success story</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="imgs/img2.jpg" >
+            <div class="image-overlay">
+                <p> the success story</p>
+            </div>
+        </div>
+        <div class="image">
+            <img src="imgs/img3.png" >
+            <div class="image-overlay">
+                <p>the success story</p>
+            </div>
+        </div>
+    </div>
+    <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" style="border: 0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="container">
+        <div class="form-section">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="your name">
+                    </div>
+                    <div class="col">
+                        <input type="email" class="form-control" placeholder="your email">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="type message here">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control message" placeholder="Your message" style="height: 300px;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+        <div class="info-section">
+            <div class="info-box">
+                <h4>Our address</h4>
+                <p>4896 Desert Broom Court
+                    Newark, NJ 07102
+                    United States</p>
+                <h4>Email</h4>
+                <p>mail@mail.gmail</p>
+                <h4>Phone</h4>
+                <p>+00 123-456-78900</p>
+            </div>
+        </div>
+    </div>
+    
+      
+
+</body>
+
+</html>
